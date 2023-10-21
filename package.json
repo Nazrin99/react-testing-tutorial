@@ -23,7 +23,8 @@
     "open-cypress": "cypress open",
     "open-component": "cypress open --component",
     "component-test": "cypress run --component",
-    "all-test": "concurrently \"npm run component-test\""
+    "unit-test": "npm test",
+    "all-test": "concurrently \"npm run component-test\" \"npm run unit-test\""
   },
   "eslintConfig": {
     "extends": [
