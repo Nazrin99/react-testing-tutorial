@@ -22,8 +22,6 @@
     "src/**/*.tsx",
     "cypress/**/*.ts",
     "cypress/**/*.tsx",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
   ],
   "exclude": ["node_modules"]
 }
