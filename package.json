@@ -39,5 +39,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@tsconfig/cypress": "^1.0.1",
+    "@types/cypress": "^1.1.3",
+    "cypress": "^13.3.2",
+    "ts-loader": "^9.5.0",
+    "ts-node": "^10.9.1"
   }
 }
