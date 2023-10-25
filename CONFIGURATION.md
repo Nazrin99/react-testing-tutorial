@@ -91,7 +91,7 @@ Once you have written your test scripts, you can run the following command to ru
 
 ### 1. Installing devDependencies
 
-    npm install --save-dev jest @types/jest ts-jest
+    npm install --save-dev jest @types/jest ts-jest jest-environment-jsdom
 
 ### 2. Initialize jest configuration file
 
